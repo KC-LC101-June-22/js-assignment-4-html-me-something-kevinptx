@@ -1,1 +1,102 @@
-/* Write your CSS here! */
+@import 'normalize.css';
+
+header {
+    padding: 2em 0;
+}
+
+header, main, footer {
+    background-color: rgb(224, 216, 216);
+    font-size: 1.6em;
+}
+
+header h1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.6em;
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+    font-size: 1em;
+    list-style: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+article, figure, footer, header, main, nav, section {
+    display: block;
+}
+
+*, html {
+    scroll-behavior: auto !important;
+}
+
+body {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    font-size: 62.5%;
+    display: block;
+    background-color: rgb(55, 53, 53);
+}
+
+section:first-child {
+    margin-top: 0;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+section {
+    margin: 1.875em 0;
+}
+
+main h2 {
+    padding: 0.5em 0 0.5em 0.5em;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+img {  
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; 
+  }
+
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto; 
+
+}
+
+p {
+    padding: 1.15em;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2.0em;
+    font-weight:bolder;
+    margin-top:0em;
+}
